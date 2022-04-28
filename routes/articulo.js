@@ -15,5 +15,5 @@ router.put('/update', auth.verifyUsuario, articuloController.update);
 router.delete('/remove', auth.verifyUsuario, articuloController.remove);
 router.put('/activate', auth.verifyUsuario, articuloController.activate);
 router.put('/deactivate', auth.verifyUsuario, articuloController.deactivate);
-
+"jsjdhsjdhjsdhsj"
 module.exports = router;
